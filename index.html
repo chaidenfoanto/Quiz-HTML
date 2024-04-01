@@ -21,7 +21,12 @@
         <tr class="form-group">
             <td><label for="tanggal_lahir">Tanggal Lahir</label></td>
             <td>:</td>
-            <td><input type="date" id="tanggal_lahir" name="tanggal_lahir" placeholder="hh/bb/tttt"></td>
+            <td>
+                <input type="text" id="hari" name="hari" maxlength="2"> /
+                <input type="text" id="bulan" name="bulan" maxlength="2"> /
+                <input type="text" id="tahun" name="tahun" maxlength="4">
+                <span>(hh/bb/tttt)</span>
+            </td>
         </tr>
         <tr class="form-group">
             <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
