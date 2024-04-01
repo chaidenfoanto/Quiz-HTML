@@ -1,0 +1,91 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Form Pendaftaran</h1>
+    <form class="form">
+    <table>
+        <tr class="form-group">
+            <td><label for="nama">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="nama" name="nama"></td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="password">Password</label></td>
+            <td>:</td>
+            <td><input type="password" id="password" name="password"></td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="tanggal_lahir">Tanggal Lahir</label></td>
+            <td>:</td>
+            <td><input type="date" id="tanggal_lahir" name="tanggal_lahir" placeholder="hh/bb/tttt"></td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
+            <td>:</td>
+            <td>
+                <input type="radio" id="laki_laki" name="jenis_kelamin" value="laki-laki">
+                <label for="laki_laki">Laki-Laki</label>
+                <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="jurusan">Jurusan</label></td>
+            <td>:</td>
+            <td>
+                <select id="jurusan" name="jurusan">
+                <option value="IMT">IMT</option>
+                <option value="VCD">VCD</option>
+                <option value="MAN">MAN</option>
+                </select>
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="hoby">Hobby</label></td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" id="gaming" name="hoby" value="gaming">
+                <label for="gaming">Gaming</label>
+                <input type="checkbox" id="travelling" name="hoby" value="travelling">
+                <label for="travelling">Travelling</label>
+                <input type="checkbox" id="Rebahan" name="hoby" value="Rebahan">
+                <label for="Rebahan">Rebahan</label>
+                <br>
+                <input type="checkbox" id="Dengar musik" name="hoby" value="Dengar musik">
+                <label for="Dengar musik">Dengar musik</label>
+                <input type="checkbox" id="Adventure" name="hoby" value="Adventure">
+                <label for="Adventure">Adventure</label>
+                <input type="checkbox" id="Lainnya" name="hoby" value="Lainnya">
+                <label for="Lainnya">Lainnya</label>
+            </td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="alamat">Alamat</label></td>
+            <td>:</td>
+            <td><textarea id="alamat" name="alamat"></textarea></td>
+        </tr>
+        <tr class="form-group">
+            <td><label for="semester">Semester</label></td>
+            <td>:</td>
+            <td>
+                <select id="semester" name="semester">
+                <option value="satu">Satu</option>
+                <option value="dua">Dua</option>
+                <option value="tiga">Tiga</option>
+                <option value="empat">Empat</option>
+                <option value="lima">Lima</option>
+                <option value="enam">Enam</option>
+                <option value="tujuh">Tujuh</option>
+                <option value="delapan">Delapan</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button type="submit">Kirim</button>
+    </form>
+</body>
+
